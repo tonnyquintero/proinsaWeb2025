@@ -1,0 +1,5 @@
+/* styles/about.module.css */
+.aboutContainer {
+    background-color: black;
+    color: white; /* Optional: Ensures text is readable on a black background */
+}

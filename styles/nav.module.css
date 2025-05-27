@@ -1,0 +1,9 @@
+/* nav.module.css */
+.nav {
+    background-color: pink;
+    display: flex;
+}
+
+.ul {
+    display: flex;
+}
