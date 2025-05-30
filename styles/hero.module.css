@@ -1,6 +1,235 @@
-.hero {
-    background-color: #8B4513; /* Marrón */
-    color: white; /* Texto blanco para contraste */
-    padding: 20px;
+.header {
+    height: 69vh;
+    overflow: hidden;
+    padding-bottom: 2rem;
+}
+
+.titulo {
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: 	#00BFFF
+}
+
+.bienvenidos {
+
+    color: black;
+    z-index: 99;
+}
+
+.acceso {
+    padding-left: 3rem;
+}
+
+
+
+.header_container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    text-align: center;
+    height: 66%;
+    position: relative;
+}
+
+.cta {
+    display: flex;
+    color: white;
+    gap: 5rem;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 1em;
+}
+
+
+.tittle {
+    color: var(--color-primary);
+}
+
+.header_socials {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    top: 12rem;
+    padding-left: 4rem;
+} 
+
+.header_socials2 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    right: 0;
+    top: 12rem;
+    padding-right: 4rem;
+} 
+
+.header_socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+.social_icons li a {
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+    color: #555;
+    background: #fff;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    box-shadow: -20px 20px 10px rgb(0, 0, 0 / 50%);
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+}
+
+.social_icons li a::before {
+    content: "";
+    position: absolute;
+    top: 19px;
+    left: -34px;
+    height: 100%;
+    width: 35px;
+    background: #b2b2b2;
+    transition: 0.5s;
+
+}
+
+
+
+.me {
+    width: 39rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(27% - 2rem);
+    margin-top: 2rem;
+    overflow: hidden;
+    padding: 0rem 0rem 1.5rem 0rem;
+    justify-content: center;
+}
+
+.me img {
+    height: 71%;
+}
+
+.flexi {
+    display: flex;
+}
+
+.hcuatro {
+    color: #00BFFF;
+    padding: 1em;
+    font-size: 2rem;
+}
+
+.btnDownload {
+
+    height: 3em;
+    margin-top: 1.5em;
+    color: white;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: var(--transition);
+    background-color: #00BFFF;
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: #396afc;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #396afc;
+    transition: var(--transition);
+    background-color: white;
+  }
+  
+  .btn-primary {
+    background: #396afc;
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: var(--transition);
+  }
+
+.scroll_down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 14rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+      height: 23vh;  
+      padding-top: 0.5rem;
+    }
+
+    .cta {
+        gap: 5rem;
+        justify-content: center;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .sonrisa1 {
+        display: none;
+    }
+    .sonrisa2 {
+        display: none;
+    }
+    .scroll_down {
+        display: none;
+    }
+    .header_socials {
+        display: none;
+    }
+
+    .header_socials2 {
+        display: none;
+    }
+
+    .acceso {
+        display: none;
+    }
+
+    
+
+    .me {
+        padding: 1rem 0 0;
+        left: calc(50% - 10rem);
+        width: 20rem;
+        margin-top: 8rem;
+    }
+
+    .text-light {
+        font-weight: bold;
+        font-size:medium;
+    }
 }
