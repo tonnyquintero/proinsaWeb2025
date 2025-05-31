@@ -7,6 +7,7 @@ import Nav from "../../components/Nav";
 import NavBar from "../../components/NavBar";
 import Services from "../../components/Services";
 import Wbutton from "../../components/WButton";
+import Catalogo from "../../components/Catalogo";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Blog />
         <Contact />
         <Footer />
+        <Catalogo />
       </main>  
     </div>
   );

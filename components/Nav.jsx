@@ -19,7 +19,7 @@ const Nav = () => {
       </div>
       <div className={styles.grid}>
         <a
-          href="https://maps.app.goo.gl/jJZFmDVrgnyTt9ZdA"
+          href="https://www.google.com/maps/place/6%C2%B017'17.6%22N+75%C2%B033'45.6%22W/@6.2882261,-75.5652504,17z/data=!3m1!4b1!4m4!3m3!8m2!3d6.2882261!4d-75.5626755?hl=es&entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D"
           className={styles.card}
           target="blank"
         >

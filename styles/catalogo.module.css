@@ -1,0 +1,14 @@
+.catalogo {
+    display: flex;
+    padding: 2em;
+    gap: 1em;
+}
+
+.btn {
+    background-color: #0696d8;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
