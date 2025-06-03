@@ -11,8 +11,6 @@ import odontopediatria from "../assets/odontopediatria2.png";
 import ortodoncia from "../assets/ortodoncia.png";
 import periodoncia from "../assets/periodoncia.png";
 import protesis from "../assets/protesis.png";
-import rayosX from "../assets/rayosX.png";
-import urgencias from "../assets/urgencias.png";
 // import img1 from '../public/img1.png';
 
 const Services = () => {
@@ -59,7 +57,7 @@ const Services = () => {
   }, []);
 
   return (
-    <section id="services">
+    <section id="portfolio">
       <h3 className={styles.subtitle}>Conoce nuestros servicios</h3>
       <div className={styles.recomends}>
         <div ref={boxRef} className={styles.box}>
@@ -78,14 +76,19 @@ const Services = () => {
             <Image alt="ortodoncia" width={250} height={250} src={ortodoncia} />
           </div>
           <div className={styles.item}>
-            <Image alt="endodoncia" width={250} height={250} src={endodoncia} />
+            <Image
+              alt="endodoncia"
+              width={250}
+              height={250}
+              src={periodoncia}
+            />
           </div>
           <div className={styles.item}>
             <Image
               alt="periodoncia"
               width={250}
               height={250}
-              src={periodoncia}
+              src={endodoncia}
             />
           </div>
           <div className={styles.item}>

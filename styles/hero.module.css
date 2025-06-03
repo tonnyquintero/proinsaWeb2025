@@ -1,7 +1,8 @@
 .header {
-    height: 69vh;
+    height: 59vh;
     overflow: hidden;
-    padding-bottom: 2rem;
+
+    
 }
 
 .titulo {
@@ -17,10 +18,35 @@
     z-index: 99;
 }
 
+.claroP {
+
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
 .acceso {
     padding-left: 3rem;
 }
 
+.main {
+    display: flex;
+    background: linear-gradient(to bottom, #22a2cb, #ffffff); padding: 20px;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    gap: 15rem;
+}
+
+.right {
+
+    overflow: hidden;
+    padding-bottom: 2rem;
+    
+}
 
 
 .header_container {
@@ -35,7 +61,7 @@
     display: flex;
     color: white;
     gap: 5rem;
-    justify-content: center;
+
     padding-bottom: 2rem;
     padding-top: 1em;
 }
@@ -146,18 +172,18 @@
 .btn {
     width: max-content;
     display: inline-block;
-    color: #396afc;
+    color: #22a2cb;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     font-weight: bold;
     cursor: pointer;
-    border: 1px solid #396afc;
+    border: 1px solid #22a2cb;
     transition: var(--transition);
     background-color: white;
   }
   
   .btn-primary {
-    background: #396afc;
+    background: #22a2cb;
     width: max-content;
     display: inline-block;
     color: var(--color-primary);

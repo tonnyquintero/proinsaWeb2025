@@ -46,10 +46,11 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
-  background: #0696d8;
+  background: #22a2cb;
   color: white; 
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  padding-left: 2rem;
   max-width: 100%;
 }
 

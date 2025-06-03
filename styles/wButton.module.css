@@ -5,7 +5,7 @@
     display: flex;
     gap: 1rem;
     right: 0;
-    padding-right: 2rem;
+    padding-right: 4rem;
     /* top: 0; */
     bottom: 0;
     padding-bottom: 2rem;
@@ -18,8 +18,8 @@
 .button {
     background-color: #20ff4b;
     color: white;
-    width: 6rem;
-    height: 6rem;
+    width: 4.2rem;
+    height: 4rem;
     border-radius: 50%;
     border: none;
     padding-left: 0.5em;
@@ -44,6 +44,10 @@
 @media (max-width: 700px) { 
     .divMessage { 
         display: none;
+    }
+    .boton {
+        bottom: 72px;
+        right: -21px;
     }
     
 }

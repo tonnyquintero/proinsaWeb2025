@@ -35,7 +35,9 @@ const Contact = () => {
   return (
     <section id="contact">
       <h5 className={styles["h5"]}>Contáctanos</h5>
-      <h2>Estamos a un paso de ti</h2>
+      <h2 style={{ textAlign: "center", paddingBottom: "2rem" }}>
+        Estamos a un paso de ti
+      </h2>
 
       <div className="container">
         <div className={styles.containor}>
