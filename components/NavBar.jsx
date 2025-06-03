@@ -7,6 +7,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { FaBloggerB } from "react-icons/fa";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import { FaInfo } from "react-icons/fa";
 import styles from "../styles/navBar.module.css";
 
 const Nav = () => {
@@ -40,7 +41,7 @@ const Nav = () => {
         onClick={() => setActiveNav("#blog")}
         className={activeNav === "#blog" ? styles.active : ""}
       >
-        <FaBloggerB />
+        <FaInfo />
       </a>
       <a
         href="#contact"
