@@ -218,6 +218,7 @@
     }
 
     .cta {
+        display: none;
         gap: 5rem;
         justify-content: center;
         padding-left: 1em;
@@ -257,5 +258,8 @@
     .text-light {
         font-weight: bold;
         font-size:medium;
+    }
+    .claroP {
+        display: none;
     }
 }
