@@ -22,18 +22,30 @@ const Footer = () => {
         </li>
 
         <li>
-          <a href="#testimonials">Blog</a>
+          <a href="#testimonials">Canales</a>
         </li>
         <li>
           <a href="#contact">Contacto</a>
         </li>
       </ul>
 
-      <p>Horarios xxxxxxxxxxxxxxx</p>
+      <p style={{ paddingBottom: "1rem" }}>
+        LAS CITAS DE VALORACION Y CONTINUACION DE TRATAMIENTO ES DE LUNES A
+        VIERNES DE 7 AM HASTA LAS 6 PM Y LOS SABADOS DE 7 AM HASTA LA 1 PM
+      </p>
+      <p style={{ paddingBottom: "1rem" }}>
+        EL HORARIO DE URGENCIAS INICIA DE LUNES A SABADO DESDE LAS 7 AM
+      </p>
+      <p style={{ paddingBottom: "1rem" }}>
+        DOMINGOS Y FESTIVOS NO SE PRESTA SERVICIO
+      </p>
+      <p style={{ paddingBottom: "1rem" }}>
+        CARRERA 52 # 95-91 SAN ISIDRO ARANJUEZ MEDELLIN
+      </p>
 
       <div className={styles["tonny-div"]}>
         <small className={styles["tonny"]}>
-          Desarrollado por Tonny Quintero &copy; todos los derechos reservados
+          Desarrollado por Anthony Quintero &copy; todos los derechos reservados
         </small>
       </div>
     </footer>
