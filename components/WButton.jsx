@@ -13,7 +13,7 @@ const Wbutton = () => {
       </div>
       <button className={styles["button"]}>
         <a
-          href="https://api.whatsapp.com/send?phone=573234257398"
+          href="https://api.whatsapp.com/send?phone=573168772932"
           target="blank"
         >
           <BsWhatsapp size={55} />
