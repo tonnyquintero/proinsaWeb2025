@@ -48,7 +48,7 @@
     background: #5de0e6;
     width: max-content;
     display: inline-block;
-    color: white;
+    color: black;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     font-weight: bold;
@@ -92,11 +92,14 @@
         box-shadow: 0 0 1rem rgba(208, 73, 73, 0.1);
 }
 
-.about_card {
-    background: #5de0e6;
+.about_card1 {
+    background-image: url('../assets/about1.png');
+    background-size: cover;      
+  background-position: center;    
+  background-repeat: no-repeat;   
     color: white;
     border: 4px solid #22a2cb;
-    color: #22a2cb;
+    color: black;
     font-weight: bolder;
     border-radius: 2rem;
 
@@ -105,7 +108,56 @@
     transition: var(--transition);
 }
 
-.about_card:hover {
+
+.about_card1:hover {
+    background: transparent;
+    color: #22a2cb;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about_card2 {
+    background-image: url('../assets/about2.png');
+    background-size: cover;      
+  background-position: center;    
+  background-repeat: no-repeat;   
+    color: white;
+    border: 4px solid #22a2cb;
+    color: black;
+    font-weight: bolder;
+    border-radius: 2rem;
+
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+
+.about_card2:hover {
+    background: transparent;
+    color: #22a2cb;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about_card3 {
+    background-image: url('../assets/about3.png');
+    background-size: cover;      
+  background-position: center;    
+  background-repeat: no-repeat;   
+    color: white;
+    border: 4px solid #22a2cb;
+    color: black;
+    font-weight: bolder;
+    border-radius: 2rem;
+
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+
+.about_card3:hover {
     background: transparent;
     color: #22a2cb;
     border-color: var(--color-primary-variant);
@@ -113,7 +165,7 @@
 }
 
 .about_icon {
-    color: var(--color-primary);
+    color: #22a2cb;
     font-size: 2.4rem;
     text-align: center;
     margin-bottom: 1rem;

@@ -28,17 +28,17 @@ const About = () => {
         </div>
         <div className={styles.about_content}>
           <div className={styles.about_cards}>
-            <article className={styles.about_card}>
+            <article className={styles.about_card2}>
               <FaAward className={styles.about_icon} />
               <h5 className={styles.h5Claro}>Experiencia</h5>
               <small className={styles.smallClaro}>+30 años</small>
             </article>
-            <article className={styles.about_card}>
+            <article className={styles.about_card3}>
               <FiUsers className={styles.about_icon} />
               <h5 className={styles.h5Claro}>Profesionales Atendiendo</h5>
               <small className={styles.smallClaro}>8</small>
             </article>
-            <article className={styles.about_card}>
+            <article className={styles.about_card1}>
               <FaRegSmileBeam className={styles.about_icon} />
               <h5 className={styles.h5Claro}>Clientes Felices</h5>
               <small className={styles.smallClaro}>+5000</small>

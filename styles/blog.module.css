@@ -2,3 +2,10 @@
 .blog {
     margin-top: 3rem;
 }
+
+.titulo {
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: bolder;
+    font-size: larger;
+}
