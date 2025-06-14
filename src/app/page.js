@@ -13,7 +13,10 @@ export default function Home() {
   return (
     <div>
       <main>
-        <NavBar />
+        <h1 className="text-3xl font-bold underline text-center mt-10"> 
+          Página web no disponible
+        </h1>
+        {/*<NavBar />
         <Nav />
         <Wbutton />
         <Hero />
@@ -22,7 +25,7 @@ export default function Home() {
         <Blog />
         <Contact />
         <Footer />
-        <Catalogo />
+        <Catalogo /> */}
       </main>  
     </div>
   );
